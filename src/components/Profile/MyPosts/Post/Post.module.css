@@ -1,0 +1,36 @@
+.conteiner{
+    display: grid;
+    
+    grid-template-areas:
+    " image message"
+    " ... control";
+
+    width: 40%;
+
+    margin: 5px;
+    background-color: blueviolet;
+}
+.conteiner img{
+    grid-area: image;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+}
+.message{
+    grid-area: message;
+}
+.control_bar{
+    grid-area: control;
+}
+.like{
+    grid-area: like;
+
+    color: black;
+    text-align: center;
+}
+.dislike{
+    grid-area: dislike;
+
+}

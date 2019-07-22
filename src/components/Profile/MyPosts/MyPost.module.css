@@ -1,0 +1,12 @@
+.content{
+    grid-area: content;
+  
+    background-color: #F3DE2C;
+}
+.headImage img{
+    width: 100%;
+}
+.profileImage img{
+    width: 150px;
+    height: 150px;
+}

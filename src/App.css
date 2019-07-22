@@ -1,4 +1,7 @@
-.appWrapper{
+body{
+  margin: 0;
+}
+.app_wraper{
   display: grid;
 
   grid-template-areas:
@@ -13,28 +16,5 @@
 
   margin: 0 auto;
 }
-.header{
-  grid-area: header;
 
-  background-color: #FB6107;
-}
-.header img{
-  height: 50px;
-}
-.nav{
-  grid-area: nav;
 
-  background-color: #FB6107;
-}
-.content{
-  grid-area: content;
-
-  background-color: #F3DE2C;
-}
-.headImage img{
-  width: 100%;
-}
-.profileImage img{
-  width: 150px;
-  height: 150px;
-}
