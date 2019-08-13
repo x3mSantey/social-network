@@ -21,7 +21,7 @@ let store = {
                 { id: 2, name: 'Vasya' },
                 { id: 3, name: 'Igor' },
                 { id: 4, name: 'Petr' },
-                { id: 5, name: 'Chlenix' },
+                { id: 5, name: 'Vanya' },
                 { id: 6, name: 'NomaD' }
             ],
             messages: [
